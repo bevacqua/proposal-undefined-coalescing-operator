@@ -42,4 +42,8 @@ console.log(spellWand.remaining ?? 5) // <- 0
 
 ## Limitations
 
-C# coalesces `null`, they however don't have a concept for `undefined`. In JavaScript `null` is often treated as interchangeable with `undefined`, but sometimes it's not. Under the current proposal, `null` is not covered by the Undefined Coalescing Operator, and `left === null ? right : left` should still be used for this case.
+C# coalesces `null`, they however don't have a concept for `undefined`. In JavaScript `null` is often treated as interchangeable with `undefined`, but sometimes it's not.
+
+Default values in JavaScript function parameters or while destructuring don't consider `null` to be a missing value, and thus logic and the principle of least surprise dictate the Undefined Coalescing Operator shouldn't either. 
+
+Under the current proposal, `null` is not covered by the Undefined Coalescing Operator, and `left === null ? right : left` should still be used for this case.
