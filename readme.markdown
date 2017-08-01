@@ -1,6 +1,6 @@
 # Undefined Coalescing Operator
 
-This is a proposal for introducing a Undefined Coalescing [(Null Coalescing Operator in C#)](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/null-conditional-operator) operator in [ECMAScript](https://github.com/tc39/ecma262/)).
+This is a proposal for introducing a Undefined Coalescing [(Null Coalescing Operator in C#)](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/null-conditional-operator) operator in [ECMAScript](https://github.com/tc39/ecma262/).
 
 ## Motivation
 
